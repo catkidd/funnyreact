@@ -1,0 +1,12 @@
+table, th, td{
+    border: 2px dotted blueviolet;
+    /* border: 2px dashed blueviolet; */
+    /* border: 2px solid blueviolet; */
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 1rem 1.5rem;
+    background: yellowgreen;
+    border-radius: 10px;
+}

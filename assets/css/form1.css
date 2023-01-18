@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    width: 50%;
+}
+h2{
+    text-align: center;
+}
+p{
+    color: #C70039;
+    text-align: center;
+}
+form{
+    width: 500px;
+    border: 1px solid #ccc;
+    margin: 8px 0;
+}
+.form-row{
+    margin: 3px;
+}
+.btn-row{
+    margin: 8px 0;
+    text-align: center;
+}
+button{
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background: #C70039;
+}
+.form-row input[type="email"],
+input[type="number"],
+#street__address-one,#street__address-two,
+#bike-model{
+    width: 70%;
+    padding: 8px;
+    border: 2px solid #C70039;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+select,#postal,
+#username,#city,#region{
+    padding: 8px;
+    border: 2px solid #C70039;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+

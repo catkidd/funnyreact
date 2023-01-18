@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/form1.css">
+</head>
+<body>
+    <form action="">
+        <h2>Bikers Membership Registration Form</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Similique sint non voluptas fugiat velit sunt quasi, 
+            cum error adipisci eveniet ipsum itaque praesentium pariatur 
+            consectetur fuga tenetur nihil quos! Molestias.</p>
+        <br>
+        <div class="form-row">
+            <label for="username"> Username : <br>
+                <input type="text" name="username" id="username" placeholder="Firstname">
+                <input type="text" name="username" id="username" placeholder="Lastname">
+            </label>
+        </div>
+        <br>
+        <div class="form-row">
+            <label for="email">Email : <br>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com" data-size="full">
+            </label>
+        </div>
+        <br>
+        <div class="form-row">
+            <label for="number">Phone Number : <br>
+                <input type="number" name="number" id="number" placeholder="98## ### ###">
+            </label>
+        </div>
+        <br>
+        <div class="form-row">
+            <label for="address">Address : <br>
+                <input type="text" name="address" id="street__address-one" placeholder="Street Address 1"><br><br>
+                <input type="text" name="address" id="street__address-two" placeholder="Street Address 2"><br><br>
+                <input type="text" name="address" id="city" placeholder="City">
+                <input type="text" name="address" id="region" placeholder="Region"><br><br>
+                <input type="text" name="address" id="postal" placeholder="Postal/Zip Code">
+                <select name="country" id="country">
+                    <option value="">Nepal</option>
+                    <option value="">India</option>
+                    <option value="">China</option>
+                    <option value="">Pakistan</option>
+                </select>
+            </label>
+        </div>
+        <br>
+        <div class="form-row">
+            <label for="bike-model"> Share with us the model of your bike : <br>
+                <input type="text" name="bike-model" id="bike-model" placeholder="Royal Enfield">
+            </label>
+        </div>
+        <br>
+        <div class="form-row">
+            <label for="membership">Which membership option do you choose?<br>
+                
+                    <input type="radio" name="membership" id="yes" value="membership">White $10
+                
+                
+                    <input type="radio" name="membership" id="no" value="membership">Red $20
+                
+                
+                    <input type="radio" name="membership" id="black" value="membership">Black $50
+                
+            </label>
+        </div>
+        <br>
+        <div class="form-row">
+            <label for="member">Are you member of another club?<br>
+                
+                    <input type="radio" name="member" id="yes" value="YES">YES
+                
+                
+                    <input type="radio" name="member" id="no" value="NO">NO
+                
+            </label>
+        </div>
+        <br>
+        <div class="btn-row">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

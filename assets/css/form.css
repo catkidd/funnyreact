@@ -1,0 +1,22 @@
+form{
+    border: 1px solid rebeccapurple;
+}
+.form-row{
+    margin: 1rem;
+}
+.btn-row{
+    width: max-content;
+    margin: 0 auto;
+    
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+    color: whitesmoke;
+}
+#username,#password,#email,#cars{
+    padding: 5px;
+    border-radius: 5px;
+    border-color: red;
+}

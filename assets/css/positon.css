@@ -1,0 +1,60 @@
+.wrapper {
+    border: 3px solid black;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    width: 33.33%;
+    /* float: left; */
+    float: right;
+}
+.red {
+    background-color: red;
+    /* float: left; */
+    /* float: right; */
+}
+.green {
+    background-color: green;
+    /* float: left; */
+    /* float: right; */
+}
+.blue {
+    background-color: blue;
+    /* float: left; */
+    /* float: right; */
+}
+.wrapper:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.positioning {
+    border: 1px solid green;
+    position: relative;
+}
+img {
+    width: 100%;
+    height: 100%;
+    /* height: 100rem; */
+    /* object-fit: cover;
+    object-position: center; */
+}
+.info {
+    position: absolute;
+    top: 0;
+    padding: 10px 15px;
+}
+button {
+    padding: 0.7rem 1rem;
+    color: white;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.7s ease-out;
+}
+button:hover {
+    background-color: brown;
+    cursor: pointer;
+}

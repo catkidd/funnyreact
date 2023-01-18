@@ -1,0 +1,44 @@
+.wrapper {
+    /* border: 1px solid red; */
+    position: relative;
+}
+h2 {
+    margin: 0;
+    font-size: 110px;
+}
+h3 {
+    margin: 0;
+    font-size: 40px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.info {
+    top: 0;
+    padding-left: 1rem;
+    position: absolute;
+}
+/* .places__desc{
+    border: 1px solid red;
+} */
+p {
+    text-align: justify;
+    margin: 1rem;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    font-weight: 500;
+}
+.soyambhhu {
+    width: 35%;
+    height: 35%;
+    float: left;
+    margin: 1rem;
+    box-shadow: 8px 8px 4px 1px #888888;
+}
+.places__desc:after {
+    content: "";
+    display: block;
+    clear: both;
+}
